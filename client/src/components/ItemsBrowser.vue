@@ -1,7 +1,9 @@
 <script setup>
 
 // TODO: Declare props (input)
-
+const props = defineProps( {
+    "items" : Array
+});
 
 // TODO: Declare Emits (output) 
 // an 'addcart' event to notify the parent component when items are added
